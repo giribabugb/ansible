@@ -1,2 +1,2 @@
 # ansible
-Ansible playbook forinstalling prometheus, node-exporter and grfana
+Ansible playbook for installing prometheus, node-exporter and grfana
