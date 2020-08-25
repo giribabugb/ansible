@@ -1,0 +1,15 @@
+---
+- hosts: prometheus
+  become: true
+  roles:
+    - prometheus
+
+- hosts: grafana
+  become: true
+  roles:
+    - grafana
+
+- hosts: node_exporter
+  become: true
+  roles:
+    - node_exporter
