@@ -4,3 +4,7 @@ userId: "prometheus"
 groupId: "prometheus"
 exec_command: "/usr/local/bin/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/data/prometheus --storage.tsdb.retention=2d"
 version: "2.20.1"
+linux_clients:
+  ''
+windows_clients:
+  ''
